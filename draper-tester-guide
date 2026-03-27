@@ -1,0 +1,135 @@
+# AWSM Strategy Tool — Tester Guide
+
+Welcome. You've been invited to test the AWSM Strategy Tool — an AI-powered strategy assistant built on AWSM's proprietary advertising strategy framework. This guide walks you through setup and how to get the most out of it.
+
+---
+
+## What This Is
+
+The AWSM Strategy Tool is a thinking partner for advertising and brand strategy work. It runs a full strategy chain — from reading a client brief through to a master handoff document for your execution team. It is built to produce work at the standard of a senior strategist, not a generic AI assistant.
+
+It is not a content generator. It is not a template filler. It is a rigorous strategic thinking partner that asks hard questions, surfaces tensions, and pushes toward platforms that actually work in market.
+
+---
+
+## What You Need
+
+- A **Claude Pro account** (claude.ai — the paid plan at $20/month)
+- The **system prompt file** shared alongside this guide (`draper-system-prompt.md`)
+- A client brief, RFP, or strategic problem you want to work through
+
+If you don't have a Claude Pro account, you'll need to upgrade at claude.ai before proceeding. The tool requires Pro because it uses the Projects feature, which is not available on free accounts.
+
+---
+
+## One-Time Setup (5 minutes)
+
+You only need to do this once. After setup, the tool is ready every time you open the project.
+
+**Step 1 — Open Claude.ai and go to your Projects**
+
+Log into claude.ai. In the left sidebar, look for a **Projects** section. Click **New Project**.
+
+**Step 2 — Name your project**
+
+Give it a clear name — "AWSM Strategy Tool" or "Draper" works well. Add a short description if you like.
+
+**Step 3 — Open the system prompt file**
+
+Open `draper-system-prompt.md` on your computer. Select all the text (Ctrl+A on Windows, Cmd+A on Mac) and copy it.
+
+**Step 4 — Paste into Project Instructions**
+
+Inside your new project, look for the **Instructions** section on the right side of the screen. Click the **+** button next to it. A text area will open. Paste everything you copied into that text area.
+
+**Step 5 — Save**
+
+Save the instructions. Your project is now configured. You won't need to do this again.
+
+---
+
+## How to Start a Session
+
+Inside your project, start a new chat. The tool is immediately active — you don't need to introduce yourself or explain what the tool is. Just begin working.
+
+**To start a strategy session**, share a brief. You can paste it directly into the chat, describe the situation, or share a mix of both. The tool will read it and begin the strategy chain.
+
+**Example opening messages:**
+
+> "Here's a brief I've received from a client. Let's work through it."
+> [paste brief]
+
+> "I'm working on a brand strategy for a mid-range cooking oil in Uganda. The client is Brookside. Here's what I know about the situation..."
+
+> "I need to develop a campaign platform for a telecom brand entering the youth market in Kenya. No formal brief yet — let me describe the situation."
+
+The tool will take it from there.
+
+---
+
+## How the Tool Works
+
+The tool runs a chain of strategic stages in sequence. Each stage produces output that the next one builds on. You don't need to manage this — the tool does it. But it helps to know what to expect.
+
+**The chain runs:**
+
+1. **Brief Intake** — The tool reads your brief honestly, surfaces tensions and contradictions, and identifies the real job to be done beneath the stated one.
+
+2. **Refined Brief** — Translates the brief intake into a clean strategic document across five components: business goal, consumer to influence, barrier, brand's right to win, and desired consumer response.
+
+3. **Challenge Mapping** — Maps the strategic challenge across three consumer moments and flips each into an opportunity. Selects the sharpest one to anchor the strategy.
+
+4. **4Cs & Insight** — Develops the strategic insight from the anchor opportunity. Explores Brand Truth, Category Truth, Consumer Truth, and Cultural Truth. Applies tension and obligation tests to distinguish genuine insights from smart observations.
+
+5. **Strategic Intention & Platform** — Builds the "We shall thus show that X" statement and develops multiple platform options. Stress-tests each one. Selects the strongest.
+
+6. **Communication Pillars** — Translates the platform into three or more communication territories — one per consumer moment — each with direction, territory, references, and channel guidance.
+
+7. **Creative Brief / Activation Brief** — Translates the strategy into a working document for the creative team. Runs in parallel with an activation brief if the campaign has a commercial objective.
+
+8. **Strategy Handoff** — Produces a Master Handoff Document with discipline-specific packets for Creative, Social, Paid Media, and PR.
+
+9. **Discipline Execution** — Takes each packet through its full execution chain when needed.
+
+You can run the full chain end-to-end, or dip into specific stages. If you only need a platform and pillars, start there. If you have a brief and want to go all the way to a handoff document, tell the tool that's your goal at the start.
+
+---
+
+## Tips for Getting the Best Output
+
+**Give it a real brief.** The more honest and specific the input, the sharper the output. Sanitised or vague briefs produce sanitised or vague strategy. If you have a real client situation, use it.
+
+**Push back when something doesn't land.** The tool is built to debate. If a platform feels flat, say so. If an insight feels like an observation, say that. It will go back and push harder. This is how the best output emerges — through iteration, not first pass.
+
+**Use the language of the chain.** If you want to jump to a specific stage, name it. "Let's move to the platform stage" or "I want to stress-test the ownability of this platform" or "Run the insight through the tension test again." The tool will follow.
+
+**Share context the brief doesn't contain.** If you know something about the client, the category, or the market that isn't in the brief, share it. The tool will use it. Strategy built on more honest context produces sharper output.
+
+**Don't accept the first thing that feels right.** Ask for alternatives. Ask for the stress test. Ask what's weak about the selected option. The tool is designed to go deeper when pushed.
+
+---
+
+## What to Give Feedback On
+
+As a tester, the most useful feedback covers:
+
+- **Does the output feel like real strategy** — or does it feel like a smart AI producing plausible-sounding language?
+- **Where does the chain feel weakest** — which stage produces output you'd want to significantly rework?
+- **Where does it surprise you** — which stage produces something you wouldn't have thought of yourself?
+- **What's missing** — what does a real strategy session need that this tool doesn't yet provide?
+- **How does the reference library land** — do the frameworks feel applied with judgment, or mechanically?
+
+Share feedback directly with the AWSM team. There are no wrong observations — the rougher and more specific the feedback, the more useful it is.
+
+---
+
+## A Note on What This Tool Is Not
+
+It is not a substitute for client relationships, market knowledge, or strategic judgment. It is a tool that makes your thinking more rigorous and your output more structured. The best work will always come from a strategist who knows the client, knows the market, and uses this tool to sharpen their thinking — not from the tool running on its own.
+
+Use it as you would use a very good thinking partner. Push it. Disagree with it. Make it work harder. That's when it earns its place.
+
+---
+
+*AWSM Strategy Tool — Beta Testing Version*
+*For tester feedback, contact the AWSM team directly.*
