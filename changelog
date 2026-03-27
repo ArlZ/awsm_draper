@@ -1,0 +1,87 @@
+# Draper — Changelog
+
+This file tracks all changes to the Draper system prompt and supporting materials. Each entry records the version, the date, what changed, and why. Maintained alongside every release in the GitHub repository.
+
+---
+
+## v1.0 — 2026-03-27 — Initial Release
+
+### What this version contains
+
+**The full strategy chain — 21 skills:**
+
+Core chain: Brief Intake, Refined Brief, Challenge Mapping, 4Cs & Insight, Strategic Intention & Platform, Communication Pillars, Creative Brief, Activation Brief, Strategy Handoff
+
+Execution skills: Creative Execution, Social Execution, Paid Media Execution, PR Execution
+
+Cross-chain skills: Advertising Effectiveness, Diplomacy, Portfolio Relevance, Campaign Timing, Messaging Matrix, Deck Architecture, Reference Library Router, Arlon Reference Library
+
+**The reference library — 11 frameworks with practitioner annotations:**
+
+- Pollard — The Human Problem Behind the Business Problem
+- Pollard — The Four Points Framework
+- Pollard — The Four Points Brief Framework
+- Pollard — Seeking Confessions
+- Pollard — Get/To/By
+- Collins — Brand as Tribal Mark
+- Collins — Culture as Operating System
+- Sutherland — Psycho-Logic Over Logic
+- Sutherland — Reframing
+- Binet & Field — The Long and the Short of It
+- Cole — The Moment of Maximum Receptivity
+
+### Key decisions made in building v1.0
+
+**Reference library annotation editing pass**
+The reference library was originally written with personal voice — first person annotations, market-specific references tied to East Africa, personal practice observations. For the external product, all annotations were edited to shift from personal voice to professional guidance. Specific changes:
+- "I" and "you" replaced with "the strategist"
+- "In this market" and "people here" universalised to "across markets" or "in practice"
+- "The East African context" broadened to "many markets" where the observation holds globally
+- Two personal endorsements removed
+- Substance of every annotation preserved — only voice and market framing changed
+
+**System prompt architecture**
+Skills are embedded directly into the system prompt rather than referenced via file paths. This is the correct architecture for API deployment — everything the model needs is in a single system prompt passed at the start of every API call.
+
+**Working principles added**
+A set of governing principles appended at the end of the system prompt to shape behaviour across every skill: teach judgment not mandate outputs, push for the sharpest answer not the first defensible one, do not smooth over gaps, proof over assertion always.
+
+### Supporting materials created in this version
+
+- `draper-tester-guide.md` — Setup and usage guide for beta testers
+- `draper-weekly-debrief.md` — Structured weekly feedback template (7 questions, ~10 minutes)
+- `draper-github-setup.md` — Step-by-step GitHub setup guide
+
+### Beta testing programme
+
+v1.0 is the version being distributed to the initial beta tester cohort. Testers are advertising strategists and brand marketers recruited via personal social media outreach. Access is gated by weekly debrief submission — non-submission results in repository access removal.
+
+---
+
+## Changelog Format for Future Entries
+
+Each subsequent entry should follow this structure:
+
+```
+## v[X.X] — [DATE] — [Brief description of what changed]
+
+### What changed
+[List of specific skills or sections updated]
+
+### Why it changed
+[The feedback signal or reasoning that drove the change — link to debrief week if applicable]
+
+### What was tested before the change
+[Brief note on what the previous version was doing and why it wasn't working]
+
+### Impact on testers
+[Whether existing testers need to update their project instructions and how to notify them]
+```
+
+---
+
+## How Version Numbers Work
+
+**Minor updates (v1.0 → v1.1)** — Single skill tightened, one framework added to the reference library, a guardrail added or removed, a stress test reworded. Testers should update but the change is not disruptive.
+
+**Significant updates (v1.0 → v2.0)** — A skill substantially rewritten, a new skill added to the chain, the reference library expanded with a new thinker, or a structural change to how the chain operates. Testers must update. A note explaining the change and its implications should accompany the release.
