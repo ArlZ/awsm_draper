@@ -1,0 +1,78 @@
+# Draper — Proprietary Licence and Terms of Access
+
+**Effective date:** 27 March 2026
+**Owner:** Arlon Mwangi
+
+---
+
+## 1. Ownership
+
+The AWSM Strategy Tool (codename: Draper or Arlon's Brain), including its system prompt, skill chain, reference library, frameworks, annotations, and all associated materials contained in this repository, is the sole intellectual property of Arlon Mwangi. All rights are reserved.
+
+---
+
+## 2. Grant of Access
+
+Access to this repository and its contents is granted strictly on an individual, non-transferable basis for the purpose of beta testing. Access does not constitute a licence to own, copy, distribute, modify, or commercialise any part of this material.
+
+---
+
+## 3. Permitted Use
+
+You may:
+- Use the system prompt within your own Claude.ai project for the purposes of beta testing
+- Provide structured feedback to Arlon Mwangi via the weekly debrief template
+- Share your experience of using the tool in general terms without reproducing the tool's content
+
+---
+
+## 4. Prohibited Use
+
+You may not:
+- Copy, reproduce, or share the system prompt or any part of its contents with any third party
+- Use the system prompt or any part of its contents to build, train, or inform any competing product or tool
+- Modify the system prompt and distribute the modified version
+- Share your repository access credentials or invite others to the repository
+- Use any part of the tool's frameworks, annotations, or chain architecture for commercial purposes without explicit written permission from Arlon Mwangi
+
+---
+
+## 5. Feedback and Improvements
+
+Any feedback, suggestions, or improvement ideas you provide as part of the beta testing programme may be incorporated into future versions of the tool at the owner's sole discretion. You retain no claim over any improvements made to the tool as a result of your feedback.
+
+---
+
+## 6. Weekly Debrief Obligation
+
+Access to this repository is conditional on submission of the weekly debrief template by end of Friday each week. Failure to submit for two or more consecutive weeks will result in immediate revocation of repository access without notice.
+
+---
+
+## 7. Revocation of Access
+
+Arlon Mwangi reserves the right to revoke repository access at any time, for any reason, without notice. Revocation of access does not affect the obligations set out in Section 4, which remain in effect indefinitely.
+
+---
+
+## 8. No Warranty
+
+The tool is provided as-is for beta testing purposes. No warranty is made as to its accuracy, completeness, fitness for purpose, or commercial viability. Use is entirely at your own risk.
+
+---
+
+## 9. Confidentiality
+
+The existence, content, and design of the tool are confidential. You agree not to disclose the specific contents of the system prompt, the chain architecture, or the reference library annotations to any third party. General discussion of the tool's existence and your experience using it is permitted.
+
+---
+
+## 10. Governing Law
+
+This licence is governed by the laws of Kenya.
+
+---
+
+*By accepting access to this repository, you agree to the terms set out above.*
+
+*For questions or permissions beyond the scope of this licence, contact Arlon Mwangi directly.*
